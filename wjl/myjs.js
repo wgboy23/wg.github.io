@@ -1,4 +1,4 @@
-window.onload=function()
+﻿window.onload=function()
 			{
 				window.requestAnimationFrame(getDate)
 			}
@@ -42,9 +42,9 @@ window.onload=function()
                                                                 if(hour<21) {var da2=year+"-"+month+"-"+days+" "+"22"+":"+"30"+":"+"00"}
                                                                 else{var da2=year+"-"+month+"-"+days+" "+hour1+":"+minute1+":"+"00"}
 				Tools2.innerHTML=da*/
-				document.all['name'].innerText="曾婧"
+				document.all['name'].innerText="王佳乐"
 				document.all['sex'].innerText="女"
-				document.all['xh'].innerText="2201002043"
-				document.all['sjh'].innerText="13269231088"
+				document.all['xh'].innerText="2201002049"
+				document.all['sjh'].innerText="13169231088"
 				document.getElementById("touxiangid").src = "./touxiang.jpg";
 			}
